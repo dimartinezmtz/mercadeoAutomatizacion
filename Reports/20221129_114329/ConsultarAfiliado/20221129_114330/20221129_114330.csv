@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-ConsultarAfiliado,Chrome 107.0.0.0,,,2022-11-29 11:43:33,2022-11-29 11:43:59,"25,428s",PASSED
-,,,,,,,
-Test Cases/TC_Login,Chrome 107.0.0.0,,,2022-11-29 11:43:34,2022-11-29 11:43:55,"21,715s",PASSED
-"runFeatureFile(""Include/features/Login.feature"")",Chrome 107.0.0.0,,,2022-11-29 11:43:34,2022-11-29 11:43:55,"21,458s",PASSED
-,,,,,,,
-Test Cases/TC_ConsultarAfiliado,Chrome 107.0.0.0,,,2022-11-29 11:43:55,2022-11-29 11:43:59,"3,479s",PASSED
-"runFeatureFile(""Include/features/ConsultarAfiliado.feature"")",Chrome 107.0.0.0,,,2022-11-29 11:43:56,2022-11-29 11:43:59,"3,134s",PASSED

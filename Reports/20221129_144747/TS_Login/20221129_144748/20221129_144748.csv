@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TS_Login,Chrome 107.0.0.0,,,2022-11-29 14:47:53,2022-11-29 14:48:07,"13,862s",PASSED
-,,,,,,,
-Test Cases/TC_Login,Chrome 107.0.0.0,,,2022-11-29 14:47:53,2022-11-29 14:48:07,"13,690s",PASSED
-"runFeatureFile(""Include/features/Login.feature"")",Chrome 107.0.0.0,,,2022-11-29 14:47:53,2022-11-29 14:48:07,"13,478s",PASSED
