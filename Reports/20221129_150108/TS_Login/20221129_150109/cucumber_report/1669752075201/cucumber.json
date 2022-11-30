@@ -1,0 +1,98 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Validacion inicio sesion con credenciales correctas",
+        "description": "",
+        "id": "iniciar-sesión-en-portal-mercadeo;validacion-inicio-sesion-con-credenciales-correctas;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13049896800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "El usuario navega la pagina de inicio de sesion de mercadeo",
+            "match": {
+              "location": "LoginSteps.navegarPaginaInicioSesion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1541386000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "ingresa usuario ldpappsl3 y contrasena r1vjgeft2cxJ7NAvIwi5jQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ldpappsl3",
+                  "offset": 16
+                },
+                {
+                  "val": "r1vjgeft2cxJ7NAvIwi5jQ\u003d\u003d",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginSteps.ingresarCredenciales(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 729962500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Clic sobre el boton ingresar",
+            "match": {
+              "location": "LoginSteps.darClicBtnContinuar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 795200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "el sistema verifica el status",
+            "match": {
+              "location": "LoginSteps.verificarLogueo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Iniciar sesión en portal mercadeo",
+    "description": "  Como usuario del portal mercadeo, deseo ingresar al introducir las credenciales",
+    "id": "iniciar-sesión-en-portal-mercadeo",
+    "keyword": "Feature",
+    "uri": "C:/Users/dimartinez/Katalon Studio/Mercadeo_BDD/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

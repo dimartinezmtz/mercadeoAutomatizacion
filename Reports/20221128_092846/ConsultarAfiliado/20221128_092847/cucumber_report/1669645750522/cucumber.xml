@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.869983">
+<testcase classname="Consultar Afiliado" name="Title of your scenario outline" time="2.869983">
+<system-out><![CDATA[Given El usuario navega la pagina de consulta de Afiliado...................passed
+When ingresa el numero de documento 1007740082..............................passed
+And clic sobre el boton buscarAfiliado......................................passed
+Then el sistema muestra la información referente al afiliado................passed
+]]></system-out>
+</testcase>
+</testsuite>

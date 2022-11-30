@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.740479">
+<testcase classname="Iniciar sesión en portal mercadeo" name="Validacion inicio sesion con credenciales correctas" time="19.740479">
+<system-out><![CDATA[Given El usuario navega la pagina de inicio de sesion de mercadeo...........passed
+When ingresa usuario ldpappsl3 y contrasena r1vjgeft2cxJ7NAvIwi5jQ==........passed
+And Clic sobre el boton ingresar............................................passed
+Then el sistema verifica el status..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="18.335" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="1" failures="0" errors="0" time="18.335" skipped="0" timestamp="2022-11-29 14:49:35" hostname="dimartinez - ANA-DTI-DIM-BNT.mutualser.org" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dimartinez\\Katalon Studio\\Mercadeo_BDD\\Reports\\20221129_144929\\TS_Login\\20221129_144930"/>
+         <property name="logFiles" value="C:\\Users\\dimartinez\\Katalon Studio\\Mercadeo_BDD\\Reports\\20221129_144929\\TS_Login\\20221129_144930\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dimartinez - ANA-DTI-DIM-BNT.mutualser.org"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.46"/>
+         <property name="sessionId" value="2d0499368b5011e086db320f2b3af090"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" time="18.183" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2022-11-29 14:49:35 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2022-11-29 14:49:35 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2022-11-29 14:49:35 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\dimartinez\Katalon Studio\Mercadeo_BDD\Reports\20221129_144929\TS_Login\20221129_144930/cucumber_report/1669751375439'...
+
+2022-11-29 14:49:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Validacion inicio sesion con credenciales correctas: SCENARIO Validacion inicio sesion con credenciales correctas
+
+2022-11-29 14:49:36 - [TEST_STEP][PASSED] - El usuario navega la pagina de inicio de sesion de mercadeo: El usuario navega la pagina de inicio de sesion de mercadeo
+
+2022-11-29 14:49:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-29 14:49:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-29 14:49:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-29 14:49:50 - [MESSAGE][PASSED] - Navigate to 'http://192.168.200.66:12000/#/login' successfully
+
+2022-11-29 14:49:50 - [MESSAGE][PASSED] - El usuario navega la pagina de inicio de sesion de mercadeo
+
+2022-11-29 14:49:50 - [TEST_STEP][PASSED] - ingresa usuario ldpappsl3 y contrasena r1vjgeft2cxJ7NAvIwi5jQ==: ingresa usuario ldpappsl3 y contrasena r1vjgeft2cxJ7NAvIwi5jQ==
+
+2022-11-29 14:49:51 - [MESSAGE][PASSED] - Text 'ldpappsl3' is set on object 'Object Repository/Vtn_InicioSesion/txt_Username'
+
+2022-11-29 14:49:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Vtn_InicioSesion/txt_Password'
+
+2022-11-29 14:49:52 - [MESSAGE][PASSED] - ingresa usuario ldpappsl3 y contrasena r1vjgeft2cxJ7NAvIwi5jQ==
+
+2022-11-29 14:49:52 - [TEST_STEP][PASSED] - Clic sobre el boton ingresar: Clic sobre el boton ingresar
+
+2022-11-29 14:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Vtn_InicioSesion/btn_Ingresar' is clicked on
+
+2022-11-29 14:49:53 - [MESSAGE][PASSED] - Clic sobre el boton ingresar
+
+2022-11-29 14:49:53 - [TEST_STEP][PASSED] - el sistema verifica el status: el sistema verifica el status
+
+2022-11-29 14:49:53 - [MESSAGE][PASSED] - el sistema verifica el status
+
+2022-11-29 14:49:53 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-29 14:49:35 - [TEST_SUITE][PASSED] - TS_Login: Test Cases/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

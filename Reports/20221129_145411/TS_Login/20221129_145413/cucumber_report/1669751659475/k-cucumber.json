@@ -1,0 +1,103 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "318e3557-0aa5-406f-8847-fd921c106d8a",
+        "line": 32,
+        "name": "Validacion inicio sesion con credenciales correctas",
+        "description": "",
+        "id": "iniciar-sesión-en-portal-mercadeo;validacion-inicio-sesion-con-credenciales-correctas;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15973336600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "El usuario navega la pagina de inicio de sesion de mercadeo",
+            "match": {
+              "location": "LoginSteps.navegarPaginaInicioSesion()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9266c5e9-f7ea-4684-80cd-80ae7147fb41"
+          },
+          {
+            "result": {
+              "duration": 1585211000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "ingresa usuario ldpappsl3 y contrasena r1vjgeft2cxJ7NAvIwi5jQ\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ldpappsl3",
+                  "offset": 16
+                },
+                {
+                  "val": "r1vjgeft2cxJ7NAvIwi5jQ\u003d\u003d",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginSteps.ingresarCredenciales(String,String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "96965960-388a-470d-9403-0f28af83c874"
+          },
+          {
+            "result": {
+              "duration": 675899300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Clic sobre el boton ingresar",
+            "match": {
+              "location": "LoginSteps.darClicBtnContinuar()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0360fe84-dcbf-4ff9-9b65-7cdaf95ca3c3"
+          },
+          {
+            "result": {
+              "duration": 730100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "el sistema verifica el status",
+            "match": {
+              "location": "LoginSteps.verificarLogueo()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d0b25a7e-befe-49c5-b287-54119711bbc8"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Iniciar sesión en portal mercadeo",
+    "description": "  Como usuario del portal mercadeo, deseo ingresar al introducir las credenciales",
+    "id": "iniciar-sesión-en-portal-mercadeo",
+    "keyword": "Feature",
+    "uri": "C:/Users/dimartinez/Katalon Studio/Mercadeo_BDD/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

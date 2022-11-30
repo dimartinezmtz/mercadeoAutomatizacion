@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ConsultarAfiliado,,,,2022-11-29 15:01:34,2022-11-29 15:01:34,"0,354s",PASSED
+,,,,,,,
+Test Cases/TC_ConsultarAfiliado,,,,2022-11-29 15:01:34,2022-11-29 15:01:34,"0,205s",PASSED
+"runFeatureFile(""Include/features/Login.feature"")",,,,2022-11-29 15:01:34,2022-11-29 15:01:34,"0,001s",NOT_RUN
+"runFeatureFile(""Include/features/ConsultarAfiliado.feature"")",,,,2022-11-29 15:01:34,2022-11-29 15:01:34,"0,001s",NOT_RUN

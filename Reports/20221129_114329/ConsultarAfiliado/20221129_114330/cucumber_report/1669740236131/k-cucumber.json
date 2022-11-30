@@ -1,0 +1,99 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "fc7c726b-cfed-49f3-abf1-5d52f5ac70b0",
+        "line": 32,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "consultar-afiliado;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8567700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "El usuario navega la pagina de consulta de Afiliado",
+            "match": {
+              "location": "ConsultaAfiliadoSteps.navegarConsultaAfiliado()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "4c2d98bf-5de4-4fe2-acf0-6db93d9cf9fd"
+          },
+          {
+            "result": {
+              "duration": 2191860100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "ingresa el numero de documento 1007740082",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1007740082",
+                  "offset": 31
+                }
+              ],
+              "location": "ConsultaAfiliadoSteps.ingresarNumDocAfiliado(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e3d24248-981d-43ed-9c09-f4ec0904e97d"
+          },
+          {
+            "result": {
+              "duration": 555238500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clic sobre el boton buscarAfiliado",
+            "match": {
+              "location": "ConsultaAfiliadoSteps.darClicBtnContinuar()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f70269cf-7c53-428c-b8ca-59cf7b7501d5"
+          },
+          {
+            "result": {
+              "duration": 1819200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "el sistema muestra la información referente al afiliado",
+            "match": {
+              "location": "ConsultaAfiliadoSteps.verificarDatosAfiliado()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "fb5760ba-bcaf-4718-84e2-7b16a1dd9837"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar Afiliado",
+    "description": "  Como usuario del portal mercadeo, deseo consultar la información de un afiliado",
+    "id": "consultar-afiliado",
+    "keyword": "Feature",
+    "uri": "C:/Users/dimartinez/Katalon Studio/Mercadeo_BDD/Include/features/ConsultarAfiliado.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

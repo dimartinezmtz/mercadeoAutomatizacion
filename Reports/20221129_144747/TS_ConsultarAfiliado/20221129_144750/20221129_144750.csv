@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ConsultarAfiliado,,,,2022-11-29 14:48:10,2022-11-29 14:48:12,"2,385s",FAILED
+,,,,,,,
+Test Cases/TC_ConsultarAfiliado,,,,2022-11-29 14:48:12,2022-11-29 14:48:12,"0,279s",FAILED
+"runFeatureFile(""Include/features/ConsultarAfiliado.feature"")",,,,2022-11-29 14:48:12,2022-11-29 14:48:12,"0,275s",FAILED
